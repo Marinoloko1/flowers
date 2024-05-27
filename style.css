@@ -1349,9 +1349,9 @@ h6 {
   position: relative;
   width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 1%;
   margin: 0;
-  height: 100vh;
+  height: 50vh;
   display: flex;
   align-items: center; /* Cambiado a 'center' */
   justify-content: center;
@@ -1361,6 +1361,6 @@ h6 {
 .flowers-container {
   position: relative; /* Cambiado a 'relative' */
   z-index: 1;
-  display: flex;
+  display: block;
   justify-content: center;
 }
