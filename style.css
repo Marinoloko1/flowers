@@ -1358,3 +1358,11 @@ h1 {
   justify-content: center;
   background-color: #000;
 }
+
+.flowers-container {
+  position: absolute; /* O cualquier posición que desees */
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  /* Agrega otros estilos según sea necesario */
+}
