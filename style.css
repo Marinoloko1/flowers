@@ -1349,9 +1349,9 @@ h6 {
   position: relative;
   width: 100%;
   text-align: center;
-  padding: 2000%;
+  padding: 100%;
   margin: 0;
-  height: 50vh;
+  height: 500vh;
   display: flex;
   align-items: center; /* Cambiado a 'center' */
   justify-content: center;
