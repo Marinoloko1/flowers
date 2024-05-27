@@ -1331,13 +1331,3 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important; 
 }
-h1 {
-  -webkit-user-select: none !important;
-  -moz-user-select: none !important;
-  -ms-user-select: none !important;
-  user-select: none !important;
-  color: rgb(00, 00, 00);
-  font-family: cursive;
-  text-shadow: 0px 370px 1.5px rgb(0, 0, 0);
-  text-align: center;
-}
