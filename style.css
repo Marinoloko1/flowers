@@ -1349,18 +1349,16 @@ h6 {
   position: relative;
   width: 100%;
   text-align: center;
-  padding: 100%;
+  padding: 20px;
   margin: 0;
-  height: 500vh;
+  height: 100vh;
   display: flex;
-  align-items: center; /* Cambiado a 'center' */
+  flex-direction: column; /* Alinear elementos verticalmente */
+  align-items: center; /* Alinear elementos horizontalmente */
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.03);
 }
 
 .flowers-container {
-  position: relative; /* Cambiado a 'relative' */
-  z-index: 4;
-  display: flex;
-  justify-content: center;
+  margin-top: 20px; /* Ajustar según sea necesario */
 }
