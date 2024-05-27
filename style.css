@@ -1344,3 +1344,11 @@ h1 {
       0 0 50px #ff00ff, 
       0 0 60px #ff00ff;
 }
+
+.hola{
+  position: relative;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+}
