@@ -1331,3 +1331,23 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important; 
 }
+
+html, body {
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+.cohete {
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.cohete[data-padre="false"] {
+  width: 3px;
+  height: 3px;
+}
