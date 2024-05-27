@@ -1331,3 +1331,16 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important; 
 }
+
+h1 {
+  color: aliceblue;
+  font-size: 3em;
+  text-shadow: 
+      0 0 5px #fff, 
+      0 0 10px #fff, 
+      0 0 20px #ff00ff, 
+      0 0 30px #ff00ff, 
+      0 0 40px #ff00ff, 
+      0 0 50px #ff00ff, 
+      0 0 60px #ff00ff;
+}
