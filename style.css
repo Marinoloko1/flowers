@@ -1346,7 +1346,7 @@ h6 {
 }
 
 #hola {
-  position: relative;
+  position: fixed;
   width: 100%;
   text-align: center;
   padding: 20px;
