@@ -120,7 +120,7 @@ function getRandomColor() {
 }
 
 
-/*
+
 let velocidad = 1;
 
 function creardiv(numCohete = 1) {
@@ -129,7 +129,7 @@ function creardiv(numCohete = 1) {
     div.id = 'cohete' + numCohete;
     div.style.left = window.innerWidth / 2 + "px";
     div.style.top = window.innerHeight - 10 + "px";
-    //console.log(window.innerWidth)
+    console.log(window.innerWidth)
     document.body.appendChild(div);
     start(numCohete);
 }
@@ -139,7 +139,7 @@ function start(numCohete) {
     let cohete = document.getElementById('cohete'+ numCohete);
     let y = cohete.getBoundingClientRect().top;
     let maxSubida = 20;
-    //alert(y);
+    alert(y);
 
     var timer = setInterval(() => {
         velocidad = velocidad + 0.5;
@@ -165,5 +165,5 @@ function crearFuegos(){
     }
 }
 
-//creardiv(1);
-//0start(1);*/
+creardiv(1);
+0start(1);*/
