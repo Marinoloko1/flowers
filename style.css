@@ -1347,11 +1347,11 @@ h1 {
 
 #hola {
   position: fixed;
-  width: 1000%;
+  width: 100%;
   text-align: center;
   padding: 200px;
   margin: 0;
-  height: 1000vh;
+  height: 100vh;
   display: flex;
   flex-direction: column; /* Alinear elementos verticalmente */
   align-items: center; /* Alinear elementos horizontalmente */
