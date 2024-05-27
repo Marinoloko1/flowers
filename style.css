@@ -1347,7 +1347,7 @@ h6 {
 
 #hola {
   position: relative;
-  width: 100%;
+  width: 50%;
   text-align: center;
   padding: 10%;
   margin: 0;
@@ -1360,7 +1360,7 @@ h6 {
 
 .flowers-container {
   position: relative; /* Cambiado a 'relative' */
-  z-index: 1;
-  display: block;
+  z-index: 4;
+  display: flex;
   justify-content: center;
 }
