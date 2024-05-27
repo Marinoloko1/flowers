@@ -1351,7 +1351,7 @@ h6 {
   text-align: center;
   padding: 200px;
   margin: 0;
-  height: 100vh;
+  height: 1000vh;
   display: flex;
   flex-direction: column; /* Alinear elementos verticalmente */
   align-items: center; /* Alinear elementos horizontalmente */
