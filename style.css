@@ -18,6 +18,12 @@ body {
   background-color: var(--dark-color);
   overflow: hidden;
   perspective: 1000px;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #000;
 }
 
 .night {
