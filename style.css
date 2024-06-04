@@ -1353,8 +1353,8 @@ h1 {
   margin: 0;
   height: 100vh;
   display: flex;
-  flex-direction: column; /* Alinear elementos verticalmente */
-  align-items: center; /* Alinear elementos horizontalmente */
+  flex-direction: column; 
+  align-items: center; 
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.03);
 }
