@@ -1297,3 +1297,76 @@ body {
     transform: scale(0.6);
   }
 }
+h1 {
+  color: aliceblue;
+  font-size: 3em;
+  text-shadow: 
+    0 0 5px #fff, 
+    0 0 10px #fff, 
+    0 0 20px #ff00ff, 
+    0 0 30px #ff00ff, 
+    0 0 40px #ff00ff, 
+    0 0 50px #ff00ff, 
+    0 0 60px #ff00ff;
+}
+
+#hola {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding: 100px;
+  margin: 0;
+  height: 80vh;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.flowers-container {
+  margin-top: 900px; /* Ajustar según sea necesario */
+}
+/* Hierbas adicionales */
+.flower__grass--3 {
+  left: 25%;
+  bottom: 9vmin;
+  transform: scale(0.7) rotate(-30deg) rotateX(10deg) rotateY(40deg);
+  opacity: 0.8;
+  z-index: 5;
+  animation: moving-grass--3 2.2s linear infinite;
+}
+
+.flower__grass--4 {
+  left: 75%;
+  bottom: 8vmin;
+  transform: scale(0.6) rotate(20deg) rotateX(10deg) rotateY(-30deg);
+  opacity: 0.7;
+  z-index: 5;
+  animation: moving-grass--4 1.8s linear infinite;
+}
+
+.flower__grass--5 {
+  left: 90%;
+  bottom: 10vmin;
+  transform: scale(0.5) rotate(10deg) rotateX(5deg) rotateY(-20deg);
+  opacity: 0.6;
+  z-index: 5;
+  animation: moving-grass--5 2.5s linear infinite;
+}
+
+/* Animaciones para hierbas adicionales */
+@keyframes moving-grass--3 {
+  0%, 100% { transform: scale(0.7) rotate(-30deg) rotateX(10deg) rotateY(40deg); }
+  50% { transform: scale(0.7) rotate(-33deg) rotateX(10deg) rotateY(40deg); }
+}
+
+@keyframes moving-grass--4 {
+  0%, 100% { transform: scale(0.6) rotate(20deg) rotateX(10deg) rotateY(-30deg); }
+  50% { transform: scale(0.6) rotate(23deg) rotateX(10deg) rotateY(-30deg); }
+}
+
+@keyframes moving-grass--5 {
+  0%, 100% { transform: scale(0.5) rotate(10deg) rotateX(5deg) rotateY(-20deg); }
+  50% { transform: scale(0.5) rotate(13deg) rotateX(5deg) rotateY(-20deg); }
+}
